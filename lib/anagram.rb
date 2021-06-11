@@ -9,7 +9,9 @@ class Anagram
     @word = word
   end
   
-  
+  def self.all 
+    @@all 
+  end
   
   def self.match(words)
     letter_array = @word.split("")
