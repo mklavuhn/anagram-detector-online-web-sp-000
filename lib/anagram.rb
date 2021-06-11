@@ -8,7 +8,7 @@ class Anagram
   end
   
   def self.match(words)
-    
+    letter_array = @word.split("")
   end 
   
   
